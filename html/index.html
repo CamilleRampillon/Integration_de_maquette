@@ -1,107 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <!-- En-tête de la page-->
-    <head>
-        <html lang="fr">
-        <title>Mon petit graphisme</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">        
-        <script src="https://kit.fontawesome.com/8a3ba248fa.js" crossorigin="anonymous"></script>
-    </head>
-    <!-- Corps de la page-->
-    <body>
-        <header>
-            <img src="../images/logo_long.png" alt="logo de l'agence" />
-            <nav>
+
+<head>
+    <html lang="fr">
+    <title>Mon petit graphisme</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8a3ba248fa.js" crossorigin="anonymous"></script>
+</head>
+<!-- Corps de la page-->
+
+<body>
+    <div id="container">
+        <!-- En-tête-->
+        <header class="border">
+            <img id="logo" src="../images/logo_long.png" alt="logo de l'agence" class="border purple" />
+            <nav class="border purple">
                 <ul>
-                    <li>Accueil</li>
-                    <li>Contact</li>
-                </ul> 
+                    <li class="border blue">Accueil</li>
+                    <li class="border blue">Contact</li>
+                </ul>
             </nav>
         </header>
-        <main>
-            <div id="bannière">
-                 <div>
-                    <img src="../images/backgroung_image.jpg" alt="arriere plan"/>
+        <main class="border">
+            <div id="banniere" class="border purple">
+                <div id="imgBanniere">
+                    <img id="imgBanniere"src="../images/backgroung_image.jpg" alt="arriere plan" />
                 </div>
-                <div>
-                    <img src="../images/logo_long.png" alt="Logo de l'agence">
-					<h1>Agence de graphisme</h1>
+                <div id="contenuBanniere">
+                    <img id="logoContenuBanniere" src="../images/logo_long.png" alt="Logo de l'agence">
+                    <h1>Agence de graphisme</h1>
                 </div>
             </div>
-            <section>
-                <div>
-                    <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs</p>
+            <section id="presentation" class="border purple">
+                <div id="presentationIntroduction" class="border blue">
+                    <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels
+                        attractifs</p>
                 </div>
-                <section>
-                    <article>
-                        <img src="../images/graphic-design.png" alt="graphisme">
-                        <h2>Graphisme </h2>
-                        <p> Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
+                <section id="presentationSkills" class="border blue">
+                    <article class="border green">
+                        <img src="../images/graphic-design.png" alt="graphisme" class="border red">
+                        <h2 class="border red">Graphisme </h2>
+                        <p class="border red"> Que vous ayez besoin de graphisme pour un site web, des cartes de visite
+                            ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
                     </article>
-                    <article>
-                        <img src="../images/strategie.png" alt="stratégie">
-                        <h2>Stratégie</h2>
-                        <p>Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins. </p>
+                    <article class="border green">
+                        <img src="../images/strategie.png" alt="stratégie" class="border red">
+                        <h2 class="border red">Stratégie</h2>
+                        <p class="border red">Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de
+                            comprendre vos objectifs et nous nous adaptons à vos besoins. </p>
                     </article>
-                    <article>
-                        <img src="../images/illustrations.png" alt="illustrations"> 
-                        <h2>Illustrations</h2>
-                        <p>Nos graphistes vous proposerons des illustrations 100 % originales.</p>
+                    <article class="border green">
+                        <img src="../images/illustrations.png" alt="illustrations" class="border red">
+                        <h2 class="border red">Illustrations</h2>
+                        <p class="border red">Nos graphistes vous proposerons des illustrations 100 % originales.</p>
                     </article>
                 </section>
-                <section>
+                <section id="temoignage" class="border blue">
                     <article>
-						<p>"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complètement la carte de mon restaurant."</p>
-						<p>Amandine, restauratrice</p>
-					</article>
+                        <p class="contenuTemoignage border green">"Mon petit graphisme est une excellente agence de
+                            graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler
+                            complètement la carte de mon restaurant."</p>
+                        <p class="auteurTemoignage border green">Amandine, restauratrice</p>
+                    </article>
                 </section>
             </section>
         </main>
-        <footer>
-			<div>
-				<h2>Mon petit graphisme - Agence de graphisme basée à Paris</h2>
-			</div>
-            <div>
+        <!-- Pied de page -->
+        <footer class="border">
+            <div id="copyright" class="border purple">
+                <h2>Mon petit graphisme - Agence de graphisme basée à Paris</h2>
+            </div>
+            <div id="socialNetwork" class="border purple">
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-instagram"></i>
-
-
-
             </div>
-            <div>
-                <div>
-					<h3>Accès rapides</h3>
-					<ul>
-						<li>Accueil</li>
-						<li>Contact</li>
-					</ul>
-				</div>
-				<div>
-					<h3>A propos</h3>
-					<ul>
-						<li>Données personnelles</li>
-						<li>Mentions légales</li>
-						<li>Cookies</li>
-					</ul>
-					</ul>
-				</div>
-				<div>
-					<h3>Coordonnées</h3>
-					<ul>
-						<p>10 Quai de la Charente<br>
-						75019 Paris<br>
-						01 23 45 67 89</p>
-					</ul>
-				</div>
+            <div id="footerContent" class="border purple">
+                <div class="footerColumn border blue">
+                    <h3 class="border green">Accès rapides</h3>
+                    <ul class="border green">
+                        <li>Accueil</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="footerColumn border blue">
+                    <h3 class="border green"> A propos</h3>
+                    <ul class="border green">
+                        <li>Données personnelles</li>
+                        <li>Mentions légales</li>
+                        <li>Cookies</li>
+                    </ul>
+                    </ul>
+                </div>
+                <div class="footerColumn border blue">
+                    <h3 class="border green">Coordonnées</h3>
+                    <ul class="border green">
+                        <p>10 Quai de la Charente<br>
+                            75019 Paris<br>
+                            01 23 45 67 89</p>
+                    </ul>
+                </div>
             </div>
         </footer>
-    </body>
-
-
-
+    </div>
+</body>
 
 </html>
